@@ -24,7 +24,7 @@ export default function CoffeeCard({ coffee , setCoffees , coffees }) {
     })
     .then(res=>res.json())
     .then(data=>{
-      if(data.deletedCount > 0){
+      if(data.message === "Coffee deleted"){
       Swal.fire({
       title: "Deleted!",
       text: "Your file has been deleted.",

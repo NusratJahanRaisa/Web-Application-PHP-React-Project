@@ -14,7 +14,7 @@ const Home = () => {
     <div className="relative min-h-screen">
 
       {/* Hero Content */}
-      <div className="relative flex flex-col items-center justify-center min-h-[90vh] text-center text-white px-4">
+      <div className="relative flex flex-col items-center justify-center min-h-[92vh] text-center text-white">
       
       {/* Background Image */}
       <div className="absolute inset-0 bg-[url('/images/cups/6.jpeg')] bg-cover bg-center bg-no-repeat"></div>

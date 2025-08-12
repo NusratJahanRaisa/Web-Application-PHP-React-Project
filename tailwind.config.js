@@ -5,10 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily : {
+        title : ["My Soul", "cursive"],
+        title2 : ["Open Sans","sans-serif"]
+      },
+    },
   },
   plugins: [
     require('daisyui'),
   ],
 }
-
